@@ -1,0 +1,239 @@
+td{
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(44, 4, 4);
+    background-color: rgb(55, 5, 52);
+}
+th{
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(44, 4, 4);
+    background-image: url(stone.jpeg);
+}   
+
+.odd td:nth-child(2n + 1){ 
+    background-image: url(bright-wood.jpeg)
+}
+.odd td:nth-child(2n){
+    background-image: url(dark-wood.jpeg);   
+}
+
+.even td:nth-child(2n){
+    background-image: url(bright-wood.jpeg)
+}
+.even td:nth-child(2n+1){
+    background-image: url(dark-wood.jpeg);
+}
+
+
+
+.king{
+    height: 0;
+    width: 0;
+    margin: auto;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom-width: 40px;
+    border-bottom-style: solid;
+}
+
+.black.king{
+    border-bottom-color: rgb(79, 67, 67);
+}
+
+.white.king{
+    border-bottom-color: white;
+}
+
+.king::before{
+    content: '᛭';
+    font-size: 30px;
+    font-weight: 800;
+    display: block;
+    position: relative;
+    top: -25px;
+    left: -7.5px;
+}
+
+.black.king::before{
+    color: rgb(79, 67, 67);
+}
+
+.white.king::before{
+    color: white;
+}
+
+.king::after{
+    content: ' ';
+    width: 30px;
+    height: 10px;
+    display: block;
+    position: relative;
+    top: -40px;
+    left: -15px;
+    border-radius: 12px;
+}
+
+.black.king::after{
+    background-color: rgb(79, 67, 67);
+}
+
+.white.king::after{
+    background-color: white;
+}
+
+.quenn{
+    height: 0;
+    width: 0;
+    margin: auto;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom-width: 40px;
+    border-bottom-style: solid;
+}
+
+.black.quenn{
+    border-bottom-color: rgb(79, 67, 67);
+}
+
+.white.quenn{
+    border-bottom-color: white;
+}
+
+.quenn::before{
+    content: '●';
+    font-size: 30px;
+    font-weight: 800;
+    display: block;
+    position: relative;
+    top: -25px;
+    left: -8px;
+}
+
+.black.quenn::before{
+    color: rgb(79, 67, 67);
+}
+
+.white.quenn::before{
+    color: white;
+}
+
+.quenn::after{
+    content: ' ';
+    width: 30px;
+    height: 10px;
+    display: block;
+    position: relative;
+    top: -40px;
+    left: -15px;
+    border-radius: 12px;
+}
+
+.black.quenn::after{
+    background-color: rgb(79, 67, 67);
+}
+
+.white.quenn::after{
+    background-color: white;
+}
+
+.bishop{
+    height: 0;
+    width: 0;
+    margin: auto;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom-width: 40px;
+    border-bottom-style: solid;
+}
+
+.black.bishop{
+    border-bottom-color: rgb(79, 67, 67);
+}
+
+.white.bishop{
+    border-bottom-color: white;
+}
+
+.bishop::before{
+    content: '⬮';
+    font-size: 25px;
+    font-weight: 800;
+    display: block;
+    position: relative;
+    top: -23px;
+    left: -8px;
+}
+
+.black.bishop::before{
+    color: rgb(79, 67, 67);
+}
+
+.white.bishop::before{
+    color: white;
+}
+
+.bishop::after{
+    content: ' ';
+    width: 20px;
+    height: 10px;
+    display: block;
+    position: relative;
+    top: -35px;
+    left: -10px;
+    border-radius: 30px;
+}
+
+.black.bishop::after{
+    background-color: rgb(79, 67, 67);
+}
+
+.white.bishop::after{
+    background-color: white;
+}
+
+.pawn{
+    height: 0;
+    width: 0;
+    margin: auto;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom-width: 40px;
+    border-bottom-style: solid;
+}
+
+.black.pawn{
+    border-bottom-color: rgb(79, 67, 67);
+}
+
+.white.pawn{
+    border-bottom-color: white;
+}
+
+.pawn::before{
+    content: '●';
+    font-size: 40px;
+    font-weight: 800;
+    display: block;
+    position: relative;
+    top: -23px;
+    left: -11px;
+}
+
+.black.pawn::before{
+    color: rgb(79, 67, 67);
+}
+
+.white.pawn::before{
+    color: white;
+}
+
+.black.pawn::after{
+    background-color: rgb(79, 67, 67);
+}
+
+.white.pawn::after{
+    background-color: white;
+}
+
+
